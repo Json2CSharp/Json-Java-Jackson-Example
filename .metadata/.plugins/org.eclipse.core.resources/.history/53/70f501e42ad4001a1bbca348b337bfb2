@@ -1,0 +1,18 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+public class Main {
+	   public static void main(String args[]) {
+	    	
+	        try {
+	            ObjectMapper om = new ObjectMapper();
+	            //om.configure(DeserializationFeature.UNWRAP_ROOT_VALUE, true);
+	           // Root2 root = om.readValue(new File("test2.json"), Root2.class);
+	            	
+	            // System.out.println(om.readValue(new File("test.json"), Root.class));
+	            //System.out.println(om.readValue(new File("test2.json"), Root2.class));
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+	    }
+}

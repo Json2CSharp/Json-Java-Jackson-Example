@@ -1,0 +1,8 @@
+package Models;
+
+public class Root {
+    @JsonProperty("Test") 
+    public Test test;
+    @JsonProperty("Test2") 
+    public Test2 test2;
+}
